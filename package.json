@@ -1,0 +1,40 @@
+{
+  "name": "expect-srv",
+  "version": "1.0.0",
+  "description": "Fake Http Server for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nyc jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxpolun/expect-srv.git"
+  },
+  "author": "Max Polun <maxpolun@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxpolun/expect-srv/issues"
+  },
+  "homepage": "https://github.com/maxpolun/expect-srv#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "nyc": "^6.4.4",
+    "standard": "^7.1.2"
+  },
+  "standard": {
+    "globals": [
+      "jasmine",
+      "it",
+      "fit",
+      "describe",
+      "beforeEach",
+      "afterEach",
+      "expect"
+    ]
+  },
+  "nyc": {
+    "exclude": [
+      "spec/**"
+    ]
+  }
+}
