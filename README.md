@@ -16,6 +16,8 @@ are hard to test repeatably when you aren't also in control of the server
 (think things like registration), and especially they can be hard to use when
 an API is under development.
 
+expect-srv is for the other cases, where you want a real server (especially for universal/isomorphic javascript apps), but don't want to use a record/playback type test server, but rather specify the responses directly.
+
 ## Getting it
 
 ```sh
