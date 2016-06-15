@@ -1,3 +1,4 @@
+'use strict'
 let ExpectSrv = require('../../index')
 let http = require('../support/http')
 describe('server.expect', () => {

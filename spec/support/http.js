@@ -1,3 +1,4 @@
+'use strict'
 let http = require('http')
 let parse = require('url').parse
 

@@ -1,3 +1,4 @@
+'use strict'
 let shouldLog = (process.env.NODE_DEBUG || '').split(',').indexOf('expectsrv') >= 0
 
 module.exports = function () {
